@@ -242,6 +242,7 @@ span {
 
 .section-2 {
   width: 100%;
+  z-index: -9;
 }
 
 .section-2 img {
@@ -506,6 +507,7 @@ span {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .footer-right {
@@ -800,6 +802,15 @@ span {
     /* justify-content: space-between; */
     color: white;
     /* padding-bottom: 2%; */
+  }
+
+  .section-2 {
+    width: 100%;
+    z-index: -9;
+  }
+  
+  .section-2 img {
+    display: none;
   }
   
 
