@@ -587,7 +587,10 @@ span {
   .hero h1 {
     font-size: 100px;
     width: 100%;
-    margin-top: 12%;
+    margin-top: 25%;
+    padding: 1vw 1vw;
+    flex-wrap: wrap;
+    display: flex;
     /* animation: left 1.5s ; */
   }
 
@@ -802,3 +805,27 @@ span {
 
 
 }
+
+
+@media (max-width: 400){
+
+  .hero {
+    width: 100%;
+    display: flex;
+  }
+  .hero-left {
+    width: 70%;
+    padding: 15px;
+    padding: 5% 2%;
+    letter-spacing: 7px;
+  }
+  
+  .hero h1 {
+    font-size: 170px;
+    width: 80%;
+    margin-top: 50%;
+    animation: left 1.5s;
+  }
+
+}
+

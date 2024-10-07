@@ -76,6 +76,7 @@ section2.addEventListener("mousemove", ()=>{
        
     })
 
+    
     gsap.to(second,{
         duration: 1,
         x: "800",
